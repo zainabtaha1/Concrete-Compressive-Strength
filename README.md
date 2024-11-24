@@ -4,6 +4,7 @@ More Details:-
       1. Problem Definition: Any developed country has paved roads.
                              Also has a urban construction and infrastructure at the highest level.
                              But.. A road with cracks !!, A bridge has been closed !!
+                             
       2. Dataset Description: Concrete is the most important material in civil engineering.
                               The concrete compressive strength is a highly nonlinear function of age and ingredients. 
                               These ingredients include cement, blast furnace slag, fly ash, water, superplasticizer, 
@@ -32,9 +33,11 @@ More Details:-
                               Fine Aggregate (component 7) -- quantitative -- kg in a m3 mixture -- Input Variable
                               Age -- quantitative -- Day (1~365) -- Input Variable
                               Concrete compressive strength -- quantitative -- MPa -- Output Variable
+                              
        3. Analysis: - Univariate Analysis on Strength and making a classification for each category of strength, 
                     that makes me converting the problem to not just a regression problem, but also classification!
                     - Bivariate Analysis on Period of Drying the Concrete with Strength
+                    
        4. Ml Model: 1. Regression (used models):
                                                  1. MinMaxScaler
                                                  2. StandardScaler
@@ -45,6 +48,7 @@ More Details:-
                                                  7. XGBRegressor 
                    Highest accuracy: XGBRegressor model 
                    Train: 96.99%             Test: 93.96%   
+                   
        4. Ml Model: 2. Classification (used models):
                                                  1. LogisticRegression ‘scaler’
                                                  2. SVC
