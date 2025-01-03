@@ -24,15 +24,25 @@ More Details:-
    the order of numerals along the rows of the database.
                               
       Name -- Data Type -- Measurement -- Description
+      
    1- Cement (component 1) -- quantitative -- kg in a m3 mixture -- Input Variable
+   
    2- Blast Furnace Slag (component 2) -- quantitative -- kg in a m3 mixture -- Input Variable
+   
    3- Fly Ash (component 3) -- quantitative -- kg in a m3 mixture -- Input Variable
+   
    4- Water (component 4) -- quantitative -- kg in a m3 mixture -- Input Variable
+   
    5- Superplasticizer (component 5) -- quantitative -- kg in a m3 mixture -- Input Variable
+   
    6- Coarse Aggregate (component 6) -- quantitative -- kg in a m3 mixture -- Input Variable
+   
    7- Fine Aggregate (component 7) -- quantitative -- kg in a m3 mixture -- Input Variable
+   
    8- Age -- quantitative -- Day (1~365) -- Input Variable
+   
    9- Concrete compressive strength -- quantitative -- MPa -- Output Variable
+
                               
 # **3. Analysis:** 
 * Univariate Analysis on Strength and making a classification for each category of strength, 
@@ -47,9 +57,11 @@ More Details:-
    4. Polynomial 
    5. Ridge
    6. Lasso
-   7. XGBRegressor 
+   7. XGBRegressor
+      
       Highest accuracy: XGBRegressor model 
       Train: 96.99%             Test: 93.96%
+
         
 **2. Classification** (used models):
    1. LogisticRegression ‘scaler’
@@ -58,6 +70,7 @@ More Details:-
    4. RandomForest 
    5. DecisionTree
    6. AdaBoost
-   7. XGBoost  
+   7. XGBoost
+      
       Highest accuracy: XGBoost model ‘minmax’ 
       Train: 93.66%             Test: 93.03%     
