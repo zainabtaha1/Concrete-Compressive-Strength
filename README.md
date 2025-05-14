@@ -51,26 +51,27 @@ More Details:-
                     
 # **4. Ml Model:** 
 **1. Regression** (used models):
-   1. MinMaxScaler
-   2. StandardScaler
-   3. RobustScaler
-   4. Polynomial 
-   5. Ridge
-   6. Lasso
-   7. XGBRegressor
+   1. Linear Regression
+   2. Polynomial Regression
+   3. Polynomial + Ridge Regression
+   4. Polynomial + Lasso Regression
+   5. XGBRegressor
+   6. Polynomial + XGBRegressor
       
-      Highest accuracy: XGBRegressor model 
+      Highest accuracy: 'Polynomial + XGBRegressor' model - 'MinMaxScaler'
+      
       Train: 96.99%             Test: 93.96%
 
         
 **2. Classification** (used models):
-   1. LogisticRegression ‘scaler’
-   2. SVC
-   3. KNeighbors
+   1. LogisticRegression 
+   2. SVM
+   3. KNN
    4. RandomForest 
    5. DecisionTree
    6. AdaBoost
    7. XGBoost
       
-      Highest accuracy: XGBoost model ‘minmax’ 
-      Train: 93.66%             Test: 93.03%     
+      Highest accuracy: 'AdaBoost' model - 'minmax scaler'
+      
+      Train: 95.52%             Test: 93.03%      
